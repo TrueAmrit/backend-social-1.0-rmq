@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
-import { RMQPayloadDto } from 'src/dtos/rmqPayload.dto';
-import { RmqTopics } from 'src/enums/rmqTopics';
+import { RMQPayloadDto } from '../../dtos/rmqPayload.dto';
+import { RmqTopics } from '../../enums/rmqTopics';
 
 @Injectable()
 export class MsgBrokerService {

@@ -1,4 +1,4 @@
-import { PlatformEvents } from 'src/enums/platformEvents';
+import { PlatformEvents } from '../enums/platformEvents';
 
 export class RMQPayloadDto {
   event?: PlatformEvents;
